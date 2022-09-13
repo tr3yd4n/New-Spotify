@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: black !important;
+  background-image: linear-gradient(to bottom right, rgb(44, 77, 121), rgb(0, 0, 0)) ;;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#NavBar{
+  background-color: transparent;
+  color: white;
+}
+
+#search-container{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+#search-alt{
+  font-size: 20px;
+  color: red
+}
+
+#Nav-Link{
+  border: solid red 10px;
+  font-size: 20px;
+}
+
+#page-container{
+  display: flex;
+  justify-content: center;
+}
+
+#nav-link-container{
+  
+}
+
+#basic-navbar-nav{
+  
+  justify-content: flex-end;
+}
+#card-img-container{
+  color: white;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+}
+
+#generated-card:hover{
+  opacity: 1;
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.05);
+}
